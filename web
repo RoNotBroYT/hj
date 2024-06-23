@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoNotBroYT - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #0779e4;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .button {
+            display: inline-block;
+            color: #333;
+            background: #77dd77;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        .section {
+            padding: 20px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .section h2 {
+            text-align: center;
+        }
+        .section p {
+            text-align: center;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>RoNotBroYT</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Hi! I'm a small YouTuber about Fortnite and I do coding.</p>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi! I'm a small YouTuber about Fortnite and I do coding.</p>
+        </div>
+
+        <div id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <p>Hi!</p>
+        </div>
+
+        <div id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Coming Soon</p>
+            <p><a href="#" class="button">Stay Tuned!</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>RoNotBroYT &copy; 2024</p>
+    </footer>
+</body>
+</html>
